@@ -1,5 +1,5 @@
 # Robot_Arm
-An Interface in HTML  for specifying the values of the motors for the arm  and linking them to the database via PHP.
+
 Html interface to determine the values of arm motors, link them to the database and retrieve them via PHP.
 
 This project is based on the analysis, design, and implementation of the user interface of a robot control system using IOT web development techniques, 
