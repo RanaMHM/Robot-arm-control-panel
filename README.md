@@ -2,7 +2,7 @@
 An Interface in HTML  for specifying the values of the motors for the arm  and linking them to the database via PHP.
 
 This project is based on the analysis, design, and implementation of the user interface of a robot control system using IOT web development techniques, 
-By controlling the first part of the project, which is the robot arm.
+By controlling the first part of the project "Fighting robot", which is the robot arm.
 
 
 
