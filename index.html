@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robot Arm Control</title>
+  <link rel="stylesheet" href="style.css">
+  
+    </head>
+
+       <body>
+         
+        <center>
+           <form action="SaveRun.php" method="POST">
+           
+        <h1 class="text"><b>Robot Arm Control</b></h1>
+
+        <div class="container"></div>
+            <label for="motor1">Motor1</label> 
+            <input type="range" min="0" max="180" value="90" class="slider" id="motor1" name="m1">
+            <span id="demo1"></span><br><br>
+            
+            
+            <label for="motor2"> Motor2 </label>
+            <input type="range" min="0" max="180" value="90" class="slider" id="motor2" name="m2">
+            <span id="demo2"></span><br><br>
+            
+           
+            <label for="motor3" >Motor3</label> 
+            <input type="range" min="0" max="180" value="90" class="slider" id="motor3" name="m3" >
+            <span id="demo3" ></span><br><br>
+           
+            
+            <label for="motor4">Motor4</label> 
+            <input type="range" min="0" max="180" value="90" class="slider" id="motor4" name="m4" > 
+            <span id="demo4"></span><br><br>
+            
+          
+            <label for="motor5">Motor5</label> 
+            <input type="range" min="0" max="180" value="90" class="slider" id="motor5" name="m5">
+            <span id="demo5"></span><br><br>
+           
+            <label for="motor6">Motor6</label> 
+            <input type="range" min="0" max="180" value="90" class="slider" id="motor6" name="m6">
+            <span id="demo6"></span><br><br>
+          
+          
+            <button type="submit" class="button" name="save" value="save" onclick="showMSG();">&nbspsave&nbsp</button>
+            <button type="submit" class="button" name="run" value="run" >&nbsp run &nbsp</button>
+          </div>
+         
+      
+    </form>
+  
+  </center>
+    
+  <script>
+    var slider1 = document.getElementById("motor1");
+    var output1 = document.getElementById("demo1");
+    output1.innerHTML = slider1.value;
+    
+    slider1.oninput = function() {
+      output1.innerHTML = this.value;
+    }
+    var slider2 = document.getElementById("motor2");
+    var output2 = document.getElementById("demo2");
+    output2.innerHTML = slider2.value;
+    
+    slider2.oninput = function() {
+      output2.innerHTML = this.value;
+    }
+    var slider3 = document.getElementById("motor3");
+    var output3 = document.getElementById("demo3");
+    output3.innerHTML = slider3.value;
+    
+    slider3.oninput = function() {
+      output3.innerHTML = this.value;
+    }
+    var slider4 = document.getElementById("motor4");
+    var output4 = document.getElementById("demo4");
+    output4.innerHTML = slider4.value;
+    
+    slider4.oninput = function() {
+      output4.innerHTML = this.value;
+    }
+    var slider5 = document.getElementById("motor5");
+    var output5 = document.getElementById("demo5");
+    output5.innerHTML = slider5.value;
+    
+    slider5.oninput = function() {
+      output5.innerHTML = this.value;
+    }
+    var slider6 = document.getElementById("motor6");
+    var output6 = document.getElementById("demo6");
+    output6.innerHTML = slider6.value;
+    
+    slider6.oninput = function() {
+      output6.innerHTML = this.value;
+    }
+    function showMSG(){
+      alert("Data saved successfully");
+    }
+    </script>
+
+            
+       </body>
+       </html>
