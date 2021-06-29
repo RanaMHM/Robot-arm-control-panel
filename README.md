@@ -15,7 +15,7 @@ By controlling the first part of the project "Fighting robot", which is the robo
 
 
 
-2- A database was created and a table was created to save the engine values, 
+2- A database was created and a table was created to save the motors values, 
     and a table to show the operation process when pressing the RUN button on the HTML page.
   
 
@@ -23,5 +23,5 @@ By controlling the first part of the project "Fighting robot", which is the robo
 
 
 3- The database was linked to the control interface via PHP 
-   with the creation of a PHP page to retrieve the values of the motor on a special page through the code in "display.php" 
+   with the creation of a PHP page to retrieve the values of the motors on a special page through the code in "display.php" 
    and the values will be displayed on the PHP page as a table containing the name of the motor and its value.
