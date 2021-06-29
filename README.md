@@ -24,4 +24,4 @@ By controlling the first part of the project, which is the robot arm.
 
 3- The database was linked to the control interface via PHP 
    with the creation of a PHP page to retrieve the values of the motor on a special page through the code in "display.php" 
-   and the values will be displayed on the PHP page as a table containing the name of the engine and its value.
+   and the values will be displayed on the PHP page as a table containing the name of the motor and its value.
